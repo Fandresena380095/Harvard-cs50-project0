@@ -1,0 +1,12 @@
+ul li:first-child {
+    border-bottom: none;
+}
+
+ul li:last-child {
+    border-bottom: none;
+}
+
+ul li:nth-child(2){
+    border-bottom: 3px solid rgba(20, 118, 247, 0.76);
+}
+
