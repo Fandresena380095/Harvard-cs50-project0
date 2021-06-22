@@ -16,17 +16,6 @@ body {
 }
 
 
-
-#searchBox {
-    border: 1px solid rgba(136, 136, 136, 0.61);
-    padding: 2px 20px 2px 0 ;
-    border-radius:44px;
-}
-
-#searchBox:hover {
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
-}
-
 form #search {
     border: none;
     margin: 5px 20px;
@@ -43,25 +32,35 @@ form #search {
 
 form {
     display:grid;
-    grid-template-columns: 2fr;
+    justify-items: center;
+    grid-gap: 2px;
+
+}
+#searchBox {
+    border: 1px solid rgba(136, 136, 136, 0.61);
+    padding: 2px 0 2px 0 ;
+    border-radius:44px;
 }
 
+#searchBox:hover {
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.356);
+}
+
+
 form #btn {
-    padding: 10px;
+    padding: 10px 20px;
     margin-bottom: 4px;
     margin: 7px auto;
     background-image: url(icon/icon.png);
     color:rgb(20, 80, 247);
     background-color: rgba(210, 229, 245, 0.171);
-    border-radius: 33px;
+    border-radius: 10px;
     border: none;
-    box-shadow: 1px 1px 1px silver;
+    /* box-shadow: 1px 1px 1px silver; */
 }
 
 #btn:hover {
-    box-shadow: 1px 1px 2px silver;
-    background-color: cadetblue;
-    color: white;
+    box-shadow: 1px 1px 3px silver;
 }
 
 #OptionContainer {
