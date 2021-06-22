@@ -41,9 +41,15 @@ form #search {
     margin: none;
 }
 
+form {
+    display:grid;
+    grid-template-columns: 2fr;
+}
+
 form #btn {
     padding: 10px;
     margin-bottom: 4px;
+    margin: 7px auto;
     background-image: url(icon/icon.png);
     color:rgb(20, 80, 247);
     background-color: rgba(210, 229, 245, 0.171);
